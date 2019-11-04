@@ -1,0 +1,1114 @@
+/*
+Palette
+background-color: rgba(29, 161, 242, 0.1);
+background-color: rgba(230, 236, 240, 0.4);
+background-color: rgba(230, 236, 240, 0.5);
+background-color: rgb(245, 248, 250);
+background-color: rgb(29, 161, 242);
+background-color: rgb(26, 145, 218);
+background-color: rgba(224, 41, 98, 0.1);
+background-color: rgb(230, 236, 240);
+background-color: white;
+background-color: #f5f8fa;
+background-color: #dadada;
+color: #000;
+color: rgb(114, 130, 144);
+color: #fff;
+color: #1da1f2;
+color: dodgerblue;
+color: rgb(145, 151, 163);
+color: #657786;
+color: rgb(20, 23, 26);
+fill: rgb(23, 191, 99);
+fill: rgb(224, 41, 98);
+fill: rgb(101, 119, 134);
+*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin-block-start: 0;
+}
+body p{
+  display: inline;
+  margin-block-start: 0;
+  margin-block-end:0;
+}
+section.maincontent {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+}
+/*LEFTCOL*/
+section#leftcol {
+  width: 235px;
+  height: 255px;
+  padding-right: 40px;
+  /* background-color: #cbcbcb; */
+}
+div.icon-item>div.imagebox {
+  width: 46.25px;
+  height: 46.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.hovericon>div.imagebox>div.imagebox-twitter {
+  width: 46.25px;
+  height: 46.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.hovericon>div.imagebox>div.imagebox-twitter:hover img {
+  border-radius: 9999px;
+  background-color: rgba(29, 161, 242, 0.1);
+  fill: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item {
+  display: flex;
+  align-items: center;
+  width: 235px;
+  height: 54.25px;
+}
+div.icon-item-home {
+  display: flex;
+  align-items: center;
+  width: 135px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-explore {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-notifications {
+  display: flex;
+  align-items: center;
+  width: 198px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-messages {
+  display: flex;
+  align-items: center;
+  width: 173px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-bookmarks {
+  display: flex;
+  align-items: center;
+  width: 184px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-lists {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-profile {
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div.icon-item-more {
+  display: flex;
+  align-items: center;
+  width: 128px;
+  height: 54.25px;
+  padding-left: .54rem;
+}
+div#profile-image.imagebox {
+  margin-right: .6rem;
+  height: 31.25px;
+  width: 31.25px;
+  border-radius: 100%;
+  background-image: url("../imgs/profile1.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+div#tweetbtnn {
+  width: 205px;
+  height: 49px;
+  background-color: rgb(29, 161, 242);
+  color: #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  margin-top: .75rem;
+}
+div#tweetbtnn:hover {
+  background-color: rgb(26, 145, 218);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+div.icon-item-home p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+  color: #1da1f2;
+}
+div.icon-item-explore p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+}
+div.icon-item-notifications p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+}
+div.icon-item-messages p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+}
+div.icon-item-bookmarks p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+}
+div.icon-item-lists p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+}
+div.icon-item-profile p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: .7rem;
+}
+div.icon-item-more p {
+  font-weight:  700;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+}
+div.icon-item-home svg {
+  fill: #1da1f2;
+}
+div.icon-item:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-home:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-explore:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-notifications:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-messages:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-bookmarks:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-lists:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-profile:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item-more:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  fill: dodgerblue;
+  color: dodgerblue;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item>div.imagebox-twitter>img {
+  width: 100%;
+}
+div.icon-item>div.imagebox-twitter>img:hover {
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.icon-item>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-home>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-explore>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-notifications>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-messages>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-bookmarks>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-lists>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-profile>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+div.icon-item-more>div.imagebox>svg {
+  max-width: 100%;
+  height: 1.75rem;
+}
+/*MIDDLECOL*/
+section#middlecol {
+  margin-top: 55px;
+  width: 50%;
+  /* background-color: #888888; */
+  border: solid 1px rgb(230, 236, 240);
+}
+div.bigbox {
+  width: 100%;
+}
+ div#homebar {
+
+   margin-top: 0;
+   display: flex;
+   justify-content: space-between;
+   border: solid 1px rgb(230, 236, 240);
+   position: fixed;
+   background-color: white;
+   width: 598px;
+   height: 54px;
+ }
+div#homebar>a{
+  width: 55%;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+div#staricon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: .5rem;
+  margin-right: .5rem;
+  color: white;
+}
+div.imagebox>div#staricon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.imagebox>div#staricon svg {
+  width: 22.5px;
+  height: 22.5px;
+  fill: dodgerblue;
+}
+div.imagebox>div#staricon:hover {
+  cursor: pointer;
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+  color: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#happening {
+  width: 598px;
+
+  display: flex;
+}
+div#happening>div.imagebox {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div#happening>p {
+  font-weight: 400;
+  padding-left: 0rem;
+  color: rgb(145, 151, 163);
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+div#options {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div#fouriconsgroup {
+  width: 50%;
+  padding-bottom: .68rem;
+}
+div#fouricons {
+  display: flex;
+  justify-content: center;
+}
+div.shareicons>p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50rem;
+}
+div#fouricons>div.imagebox {
+  width: 37px;
+  height: 37px;
+  padding-right: .1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#fouricons>div.imagebox svg {
+  width: 22.5px;
+  height: 22.5px;
+  fill: rgb(29, 161, 242);
+}
+div#fouricons>div.imagebox:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 9999px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#threebuttons {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+  margin-bottom: .66rem;
+}
+div#circlebox {
+  width: 30px;
+  height: 30px;
+  border-right: .5px solid rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+div#circlebox>#circle {
+  width: 18px;
+  height: 18px;
+  border: solid 2px #dadada;
+  border-radius: 100%;
+}
+div#circleplus {
+  width: 30px;
+  height: 30px;
+  border: solid 1px rgb(141, 208, 248);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+div#circleplus svg {
+  height: 25px;
+  width: 25px;
+  fill: rgb(141, 208, 248);
+}
+div#tweetbtn {
+  width: 76px;
+  height: 39px;
+  z-index: -1;
+  background-color: rgb(29, 161, 242);
+  color: #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+div#graybar {
+  height: 9px;
+  background-color: rgb(230, 236, 240);
+}
+/* TWEETCARD */
+div.tweetcard {
+  width: 100%;
+  display: flex;
+  border-top: 1px solid rgb(230, 236, 240);
+  padding-top: .5rem;
+  padding-bottom: .3rem;
+}
+div.tweetcard:hover {
+  background-color: #f5f8fa;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div.tweetcard>div#profileimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetcard>div#profileimg1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetcard>div#profileimg2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetcard>div#profileimg3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetcard>div#profileimg9 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile9.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetcard>div#profileimg10 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile10.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetcard>div#profileimg11 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #dadada;
+  margin: 0 0.5rem 0.5rem 1rem;
+  background-image: url("../imgs/profile11.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div.tweetstuff {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+div.tweetstuff p, a {
+  padding: 0;
+  margin: 0;
+}
+div.twtnamestuff {
+  display: flex;
+  width: 60%;
+  margin-bottom: 2px;
+}
+div.twtnamestuff svg {
+  width: 18.75px;
+  height: 18.75px;
+  padding-right: .5rem;
+  fill: dodgerblue;
+}
+div.twtnameg {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+div.twtnamestuff p, a {
+  margin: 0;
+  text-decoration: none;
+  padding-right: 0.3rem;
+  color: #657786;
+}
+div.twtnamestuff>a:nth-child(1) {
+  color: rgb(20, 23, 26);
+  font-weight: 700;
+}
+div.twtnamestuff>a:nth-child(1):hover{
+  text-decoration: underline;
+  transition-duration: 0.2s;
+}
+div.twtnamestuff>a:hover {
+  text-decoration: underline;
+  transition-duration: 0.2s;
+}
+div#ddarrow {
+  width: 27px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#ddarrow svg {
+  width: 15px;
+  height: 15px;
+  fill: #dadada;
+}
+div#ddarrow:hover{
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+  color: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#ddarrow:hover svg {
+  fill: dodgerblue;
+  transition-duration: 0.2s;
+}
+div.twtnamemedia {
+  width: 100%;
+  margin-top: 10px;
+}
+div.twtnametext {
+  margin-left: ;
+  margin-right: 5px;
+  padding-bottom: ;
+}
+div.twtnamemedia>div.imagebox {
+  width: 507px;
+  height: 283px;
+  background-image: url("../imgs/james-lund-BXv_JxBKyE8-unsplash.jpg");
+  background-size: cover;
+  background-position: 0 101%;
+  border-radius: 15px;
+}
+div.twtnamemedia>div.imagebox1 {
+  width: 507px;
+  height: 283px;
+  background-image: url("../imgs/sandwich.png");
+  background-size: cover;
+  background-position: 0 101%;
+  border-radius: 15px;
+}
+div.twtnamemedia>div.imagebox11 {
+  width: 507px;
+  height: 283px;
+  background-image: url("../imgs/thing.jpg");
+  background-size: cover;
+  background-position: 0 101%;
+  border-radius: 15px;
+}
+div.twtnamemedia>div.imagebox img {
+  width: 100%;
+}
+div.shareicons {
+  display: flex;
+  width: 100%;
+  margin-top: .25rem;
+  flex-shrink: 0;
+}
+div.icon-numberbox {
+  width: 98.75px;
+}
+div.shareicons p {
+  padding-left: 1rem;
+  font-size: 15px;
+  color: rgb(111, 119, 134);
+
+}
+div.shareicons div {
+  width: 34.75px;
+  height: 34.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+
+}
+div.shareicons svg {
+  padding-left: 1.5rem;
+  width: 18.75px;
+  height: 18.75px;
+  fill: #657786;
+  flex-shrink: 0;
+}
+
+div.shareicons>div#share svg {
+  padding-left: 0;
+}
+
+div#threadicon:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+  transition-duration: 0.2s;
+}
+
+div#threadicon:hover svg {
+  fill: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#threadicon:hover p {
+  color: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#retweet:hover {
+  background-color: rgba(23, 191, 299, 0.1);
+  border-radius: 30px;
+  transition-duration: 0.2s;
+}
+div#retweet:hover svg {
+  fill: rgb(23, 191, 99);
+  transition-duration: 0.2s;
+}
+div#retweet:hover p {
+  color: rgb(23, 191, 99);
+  transition-duration: 0.2s;
+}
+div#likes:hover {
+  background-color: rgba(224, 41, 98, 0.1);
+  border-radius: 30px;
+  color: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#likes:hover svg {
+  fill: rgb(224, 41, 98);
+  transition-duration: 0.2s;
+}
+
+div#likes:hover p {
+  color: rgb(224, 41, 98);
+  transition-duration: 0.2s;
+}
+div#share:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 30px;
+  color: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#share:hover svg{
+  fill: dodgerblue;
+  transition-duration: 0.2s;
+}
+div#share:hover p{
+  fill: dodgerblue;
+  transition-duration: 0.2s;
+}
+/*RIGHTCOL*/
+section#rightcol {
+  width: 30%;
+  /* background-color: #7c7c7c; */
+  margin-left: 2rem;
+}
+div.searchbar {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  background-color: rgb(230, 236, 240);
+  align-items: center;
+  margin-top: 0.5rem;
+  border-radius: 30px;
+}
+div#searchicon {
+  fill: rgb(101, 119, 134);
+  width: 40px;
+  height: 38.5px;
+  padding-left: .5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+div#searchicon svg {
+  width: 40px;
+  height: 18.75px;
+}
+div.searchbar p {
+  color: rgb(101, 119, 134);
+}
+div.rightcolcard {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: rgb(245, 248, 250);
+  border-radius: 15px;
+}
+div.rightcolcard>div {
+  padding: 0.75rem;
+  border-bottom: solid 0.5px #dadada;
+}
+div.rightcolcard>div:last-child {
+  border-bottom: none;
+}
+div.rightcolcard>div#trends {
+}
+div#trends {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.trendcard:hover {
+  background-color: rgba(230, 236, 240, 0.4);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#trends p {
+  font-size: 19px;
+  font-weight: 700;
+}
+div#gearicon {
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#gearicon:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+  border-radius: 100%;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#gearicon svg {
+  width: 22.5px;
+  height: 22.5px;
+  fill: rgb(29, 161, 242);
+}
+div#trendmedia {
+  display: flex;
+  border: 0.5px solid #dadada;
+  margin-top: .5rem;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+div.trendcard-show-more {
+  padding-top: 3px;
+  padding-bottom: 9px;
+}
+div.trendcard-show-more a {
+  padding-left: .5rem;
+  color: dodgerblue;
+}
+div.trendcard-show-more:hover {
+  background-color: rgba(230, 236, 240, 0.4);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#trendcardmedia:hover {
+  background-color: rgba(230, 236, 240, 0.4);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#trendcard:hover {
+  background-color: rgba(230, 236, 240, 0.4);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#trendmedia:hover {
+  background-color: rgba(230, 236, 240, 0.5);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#followcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div#usercard {
+  display: flex;
+}
+div#profiletext {
+  padding-left: .6rem;
+  font-size: 1rem;
+  line-height: 130%;
+}
+div#profiletext>p:first-child {
+  color: #000;
+  font-weight: 700;
+}
+div#profiletext>p:last-child {
+  color: #657786;
+  font-weight: 400;
+}
+div#trending {
+  width: 82px;
+  height: 82px;
+  background-image: url("../imgs/profile3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div#trending1 {
+  width: 82px;
+  height: 82px;
+  background-image: url("../imgs/bread.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div#trending2 {
+  width: 82px;
+  height: 82px;
+  background-image: url("../imgs/mountain.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div#trendloc {
+  font-size: .81rem;
+  color: rgb(101, 119, 134);
+  line-height: 150%;
+}
+div#trending3 {
+  width: 82px;
+  height: 82px;
+  background-image: url("../imgs/oragami.jpg");
+  background-position: center;
+  background-size: cover;
+}
+div#trendhash {
+  font-size: 1rem;
+  color: #000;
+  line-height: 130%;
+  padding-top: 2px;
+  font-weight: bold;
+}
+div#trendimpact {
+  font-size: 1rem;
+  color: #657786;
+  line-height: 130%;
+  padding-top: 2px;
+}
+div#trendtext {
+  padding-left: 0.625rem;
+  line-height: 1.5rem;
+}
+div#trendtext>p:first-child {
+  color: #657786;
+}
+/*WHO TO FOLLOW*/
+div#usercard>div#profileimg {
+  width: 55px;
+  height: 38.5px;
+  margin-top: .19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-image: url("../imgs/profile6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+div#usercard>div#profileimg1 {
+  width: 55px;
+  height: 38.5px;
+  margin-top: .19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-image: url("../imgs/profile7.jpg");
+  background-size: cover;
+  background-position: center;
+}
+div#usercard>div#profileimg2 {
+  width: 55px;
+  height: 38.5px;
+  margin-top: .19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-image: url("../imgs/profile8.jpg");
+  background-size: cover;
+  background-position: center;
+}
+/*FOLLOW CARD*/
+div.rightcolcard>div#follow-trends p{
+  font-weight: 700;
+  font-size: 19px;
+  margin-left: .5rem;
+}
+div#followbtn {
+  padding: .2rem 1rem .2rem 1rem;
+  line-height: 130%;
+  border: 1px solid rgb(29, 161, 242);
+  border-radius: 30px;
+  color: rgb(29, 161, 242);
+  font-weight: 700;
+}
+div#followbtn:hover {
+  background-color: rgba(29, 161, 242, 0.2);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#usercard>div#profiletext a {
+  font-size: 1rem;
+  color: #000;
+  font-weight: bold;
+}
+div#usercard>div#profiletext:hover a{
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#maybefollow:hover {
+  background-color: rgba(230, 236, 240, 0.4);
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+/* TERMS */
+div#terms {
+  margin-left: 10px;
+  margin-top: 30px;
+  line-height: 2;
+  /*background-color: #f5f8fa;*/
+}
+div#terms p {
+  color: rgb(114, 130, 144);
+}
+div#terms{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+div#termss p {
+  padding-right: 1.6rem;
+  font-size: 14px;
+}
+div#termss:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#privacy p {
+  padding-right: 1.6rem;
+  padding-bottom: 6rem;
+  font-size: 14px;
+}
+div#privacy:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#cookies p {
+  padding-right: 1.6rem;
+  padding-bottom: 6rem;
+  font-size: 14px;
+}
+div#cookies:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#ads p {
+  padding-right: 1.1rem;
+  padding-bottom: 6rem;
+  font-size: 14px;
+}
+div#ads:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#more p {
+  padding-right: 1.6rem;
+  padding-bottom: 6rem;
+  font-size: 14px;
+}
+div#more:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+div#twitter p {
+  padding-top: 1rem;
+  padding-right: 1.1rem;
+  padding-bottom: 6rem;
+  font-size: 14px;
+}
+div#twitter:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
