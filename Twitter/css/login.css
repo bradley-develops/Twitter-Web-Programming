@@ -1,0 +1,51 @@
+/*
+
+Palette
+background-color: #1da1f2;
+color: #fff;
+
+*/
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    margin-block-start: 0;
+}
+section.main-content {
+  margin: 0 auto;
+  display: flex;
+  display: grid;
+}
+section#left-side {
+  grid-column: 1;
+}
+section#right-side {
+  grid-column: 2;
+}
+div#blue-box {
+  display: flex;
+  width: 1272.5px;
+  height: 1275px;
+  background-color: #1da1f2;
+  justify-content: center;
+  align-items: center;
+}
+div#p-box {
+  display: flex;
+  color: #fff;
+  width: 388px;
+  height: 264px;
+  flex-direction: column;
+}
+div#p-box p {
+  padding-top: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+}
+div#username-password-input {
+  padding-top: 2rem;
+}
+div#signup-card {
+  padding-top: 10rem;
+}
