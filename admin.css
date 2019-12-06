@@ -1,0 +1,15 @@
+div#admin-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#all-tweets {
+  border: solid;
+  width: 80vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
