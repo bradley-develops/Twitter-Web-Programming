@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  margin-block-start: 0;
+  background-color: rgb(163, 163, 163);
+}
+h1 {
+  color: #fff;
+  padding-left: 2rem;
+
+}
+section.main-content {
+  margin: 0 auto;
+}
+div#username-password-input {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10pt;
+  width: 40vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form>input {
+  width: 25vw;
+  height: 3vw;
+  background-color: #fafafa;
+  border: none;
+  margin-bottom: 20pt;
+}
+div#signup-box {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 50pt;
+  background-color: rgb(135, 196, 245);
+  width: 130px;
+  height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-radius: 50pt;
+  background-color: rgb(135, 196, 245);
+  width: 130px;
+  height: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+button:hover {
+  background-color: rgb(29, 141, 238);
+}

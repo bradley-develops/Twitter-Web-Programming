@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(163, 163, 163);
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: #fff;
+  padding-left: 2rem;
+}
+div#signup>p {
+  color: #fff;
+  font-size: 30pt;
+}
+div#signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10pt;
+  width: 40vw;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form>input {
+  width: 25vw;
+  height: 2vw;
+  background-color: #fafafa;
+  border: none;
+  margin-bottom: 20pt;
+}
+button {
+  margin-top: 2rem;
+  border-radius: 50pt;
+  background-color: rgb(135, 196, 245);
+  width: 130px;
+  height: 50px;
+  color: #fff;
+}
+button:hover {
+  background-color: rgb(29, 141, 238);
+}
+form:first-child {
+  background-color: #dadada;
+}

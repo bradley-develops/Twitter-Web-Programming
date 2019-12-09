@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(163, 163, 163);
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: #fff;
+}
+div#admin-contents>p {
+  color: #fff;
+}
+div#admin-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div#all-tweets {
+  background-color: #fff;
+  border: none;
+  border-radius: 20pt;
+  width: 80vw;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
